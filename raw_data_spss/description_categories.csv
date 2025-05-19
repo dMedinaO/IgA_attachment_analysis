@@ -1,0 +1,458 @@
+variable,description
+N°_diada,<ninguno>
+BienestarV1,<ninguno>
+BienestarV2,<ninguno>
+BienestarAv,<ninguno>
+Fecha_entrevista,Fecha Primera entrevista
+Hora_inicio,Hora Inicio entrevista
+Hora_termino,Hora Término entrevista
+Observador_1,Observador Primera Entrevista
+Nombre_bebé,<ninguno>
+Apellido1_bebé,<ninguno>
+Apellido2_bebé,<ninguno>
+Género_bebé,<ninguno>
+Fecha_nac_bebé,<ninguno>
+Edad_bebé_1,Edad bebé a primera entrevista
+Etnia_bebé,<ninguno>
+Grupo_étnico_bebé,<ninguno>
+Cuidado_alt_previo,<ninguno>
+Asist_SC,will the child attend daycare?
+Razón_entrada_SC,Razón entrada a sala cuna
+Jornada_SalaC,schedule of the child in daycare
+Otro_cuidado,other type of care for the child?
+Tipo_cuidado_alt,which type of alternative care
+Nombre_cuidador_pr,<ninguno>
+Apellido1_cuidador_pr,<ninguno>
+Apellido2_cuidador_pr,<ninguno>
+Relación_cuidador_bebé,<ninguno>
+Fecha_nac_cuidador,<ninguno>
+Edad_cuidador_1,<ninguno>
+Edad_cuidador_2,Edad cuidador principal a primera grabación EN
+Estado_civ_cuidador_pr,<ninguno>
+Estado_civ_cat,single vs couple
+Ocupación_cuidador_pr,<ninguno>
+occupationdic,occupation dicotomica
+altcaregiverdic,cuidador alternativo dicotomica
+Jornada_laboral_cuid_pr,<ninguno>
+Nivel_educ_cuidador_pr,<ninguno>
+Etnia_cuidador_pr,<ninguno>
+Grupo_étnico_cuidador_pr,<ninguno>
+NSE_familia,<ninguno>
+N_familiares,Número de familiares
+Familiar1_RelaciónNiño,<ninguno>
+Familiar1_FechaNac,<ninguno>
+Familiar1_EstadoCiv,<ninguno>
+Familiar1_Ocupación,<ninguno>
+Familiar1_NivelEduc,<ninguno>
+Familiar1_GrupoEtnico,<ninguno>
+Familiar2_RelaciónNiño,<ninguno>
+Familiar2_FechaNac,<ninguno>
+Familiar2_EstadoCiv,<ninguno>
+Familiar2_Ocupación,<ninguno>
+Familiar2_GrupoEtnico,<ninguno>
+Familiar3_RelaciónNiño,relative 3 relationship with the child?
+Familiar3_FechaNac,date of relative 3 birth
+Familiar3_EstadoCiv,relative 3 marital status
+Familiar3_Ocupación,raletive 3 occupation
+Familiar3_NivelEduc,relative 3 educational level
+Familiar3_GrupoEtnico,relative 3 ethnicity group
+relative_4_relationship_child,relative 4 relationship with the child?
+relative_4_date_birth,date of relative 4 birth
+raletive_4_marital_status,relative 4 marital status
+relative_4_occupation,raletive 4 occupation
+relative_4_educational_level,relative 4 educational level
+relative_4_ethnic_group,relative 4 ethnicity group
+relative_5_relationship_child,relative 5 relationship with the child?
+relative_5_date_birth,date of relative 5 birth
+relative_5_marital_status,relative 5 marital status
+relative_5_occupation,raletive 5 occupation
+relative_5_educational_level,relative 5 educational level
+relative_5_ethnic_group,relative 5 ethnicity group
+relative_6_relationship_child,relative 6 relationship with the child?
+relative_6_date_birth,date of relative 6 birth
+relative_6_marital_status,relative 6 marital status
+relative_6_occupation,raletive 6 occupation
+relative_6_educational_level,relative 6 educational level
+relative_6_ethnic_group,relative 6 ethnicity group
+relative_7_relationship_child,relative 7 relationship with the child?
+relative_7_date_birth,date of relative 7 birth
+relative_7_marital_status,relative 7 marital status
+relative_7_occupation,raletive 7 occupation
+relative_7_educational_level,relative 7 educational level
+relative_7_ethnic_group,relative 7 ethnicity group
+relative_8_relationship_child,relative 8 relationship with the child?
+relative_8_date_birth,date of relative 8 birth
+relative_8_marital_status,relative 8 marital status
+relativa_8_occupation,raletive 8 occupation
+relative_8_educational_level,relative 8 educational level
+relative_8_ethnic_group,relative 8 ethnicity group
+relative_9_relationship_child,relative 9 relationship with the child?
+relative_9_date_birth,date of relative 9 birth
+relative_9_marital_status,relative 9 marital status
+relative_9_occupation,raletive 9 occupation
+relative_9_educational_level,relative 9 educational level
+relative_9_ethnic_group,relative 9 ethnicity group
+relative_10_relationship_child,relative 10 relationship with the child?
+relative_10_date_birth,date of relative 10 birth
+relative_10_marital_status,relative 10 marital status
+relative_10_occupation,raletive 10 occupation
+relative_10_educational_level,relative 10 educational level
+relative_10_ethnic_group,relative 10 ethnicity group
+relative_11_relationship_child,relative 11 relationship with the child?
+relative_11_date_birth,date of relative 11 birth
+relative_11_marital_status,relative 11 marital status
+relative_11_occupation,raletive 11 occupation
+relative_11_educational_level,relative 11 educational level
+relative_11_ethnic_group,relative 11 ethnicity group
+relative_12_relationship_child,relative 12 relationship with the child?
+relative_12_date_birth,date of relative 12 birth
+relative_12_marital_status,relative 12 marital status
+relative_12_occupation,raletive 12 occupation
+relative_12_educational_level,relative 12 educational level
+relative_12_ethnic_group,relative 12 ethnicity group
+relative_13_relationship_child,relative 13 relationship with the child?
+relative_13_date_birth,date of relative 13 birth
+relative_13_marital_status,relative 13 marital status
+relative_13_occupation,raletive 13 occupation
+relative_13_educational_level,relative 13 educational level
+relative_13_ethnic_group,relative 13 ethnicity group
+Dirección,Dirección familiar
+Teléfono,Número de contacto
+HO_1,"La madre permite que el niño(a) ocasionalmente se entretenga en tipos de juegos ""sucios""."
+HO_2,La madre espontáneamente vocaliza al niño(a) al menos 2 veces durante la entrevista.
+HO_3,La madre responde verbalmente a las vocalizaciones del niño(a).
+HO_4,La madre dice al niño(a) el nombre de un objeto o una persona durante la visita.
+HO_5,El habla de la madre es clara y audible.
+HO_6,La madre inicia intercambios verbales con el entrevistador.
+HO_7,La madre conversa libremente y con facilidad.
+HO_8,La madre espontáneamente alaba las cualidades o el comportamiento del niño(a) al menos 2 veces.
+HO_9,La voz de la madre revela sentimientos positivos cuando habla de o al niño(a).
+HO_10,La madre acaricia o besa al niño(a) al menos 1 vez durante la visita.
+HO_11,La madre responde positivamente a la alabanza al niño(a) ofrecida por el entrevistador.
+HO_12,La madre responde que en no más de 1 ocasión se castigó físicamente al niño(a) en la última semana.
+HO_13,La familia tiene un animal doméstico.
+HO_14,La madre no grita al niño(a) durante la visita.
+HO_15,La madre no expresa irritación abierta con / u hostilidad hacia el niño(a).
+HO_16,La madre no da un cachete o pega al niño(a) durante la visita.
+HO_17,La madre no regaña o critica al niño(a) durante la visita.
+HO_18,La madre no interfiere las acciones del niño(a) o restringe sus movimientos más de 3 veces en la visita.
+HO_19,Al menos hay 10 libros visibles en la casa.
+HO_20,Cuando la madre está fuera de casa el cuidado el cuidado lo aportan de 1 a 3 sustitutos regulares.
+HO_21,"El niño(a) va al almacén (Verdulería, Feria, etc.) o a la compras al menos 1 vez por semana."
+HO_22,El niño(a) sale fuera de casa al menos 4 veces a la semana.
+HO_23,El niño(a) asiste con regularidad al pediatra u hospital para revisiones o visitas preventivas.
+HO_24,"El niño(a) tiene un lugar especial en el que guardar sus juguetes y ""sus cosas""."
+HO_25,El ambiente de juego del niño(a) parece seguro y libre de peligros.
+HO_26,"El niño tiene 1 o más piezas de equipamiento para actividad muscular (balón, caballo de balancín,)."
+HO_27,El niño tiene juguetes de empujar o tirar.
+HO_28,"El niño tiene coche, andador, patinete o triciclo."
+HO_29,"Dispone de equipamiento de aprendizaje apropiado a la edad (osito o juguetes de ""rol playing"")."
+HO_30,"Dispone de equipamiento de aprendizaje apropiado a la edad (mesa y silla, silla alta, corralito)."
+HO_31,"Dispone de juguetes de coordinación ojo-mano (de entrar y sacar, de insertar cuentas, de encajar,...)."
+HO_32,"Dispone de juguetes de coordinación ojo-mano que permiten combinar (apilar, bloques, construir)."
+HO_33,Juguetes de literatura o música.
+HO_34,La madre aporta juguetes o actividades interesantes al niño durante la entrevista.
+HO_35,La madre habla al niño mientras hace el trabajo de la casa.
+HO_36,La madre conscientemente anima el avance evolutivo.
+HO_37,"La madre da valor a juguetes ""madurativos"" a través de su atención."
+HO_38,La madre estructura el período de juego del niño.
+HO_39,La madre provee al niño de juguetes que le desafían a desarrollar nuevas destrezas.
+HO_40,La madre tiende a tener al niño dentro de su campo visual y a mirarlo frecuentemente.
+HO_41,El padre aporta algún cuidado diario.
+HO_42,La madre lee historias al niño al menos 3 veces por semana.
+HO_43,El niño come al menos 1 vez al día con la madre y el padre.
+HO_44,La familia visita o recibe visitas de parientes al menos 1 vez al mes.
+HO_45,El niño tiene 3 o más libros suyos.
+IT_HOME_Responsividad,<ninguno>
+IT_HOME_Aceptación,<ninguno>
+IT_HOME_Organización,<ninguno>
+IT_HOME_Provisión_de_materiales,<ninguno>
+IT_HOME_Implicación_materna,<ninguno>
+IT_HOME_Variedad,<ninguno>
+IT_HOME_TOTAL,<ninguno>
+BSI_1,Pensamientos o ideas de acabar con su vida
+BSI_2,Sentirse solo/a
+BSI_3,Sentirse triste
+BSI_4,No sentir interés por las cosas
+BSI_5,Sentirse desesperanzado con respecto al futuro
+BSI_6,La sensación de ser inútil o de no valer nada
+BSI_TOTAL,<ninguno>
+EEP_1_in,Me siento constantemente criticada o evaluada por otros en mi rol de madre
+EEP_2,Siento que hago un buen trabajo como madre
+EEP_3_in,"Mis intereses y talentos están en otras áreas de mi vida, no en la maternidad"
+EEP_4,Considero que las decisiones que tomo en relación a la crianza de mi bebé son las más acertadas
+EEP_5_in,Ser madre no ha sido tan satisfactorio como yo esperaba
+EEP_6_in,Se me hace realmente difícil decidir cómo criar a mi bebé
+EEP_7_in,Las exigencias de la maternidad me hacen sentir tensa y angustiada
+EEP_8_in,Siento que en general las tareas de la maternidad no me permiten disfrutar de mi bebé
+EEP_9_in,Siento que no he logrado ser el tipo de madre que me gustaría
+EEP_10,El ser madre me hace sentir satisfecha y feliz
+EEP_TOTAL,<ninguno>
+ADS_CHILD_M,MIRADA DEL NIÑO
+ADS_CHILD_M_2,<ninguno>
+ADS_CHILD_V,VOCALIZACION DEL NIÑO
+ADS_CHILD_TA,TACTO AFECTIVO DEL NIÑO
+ADS_CHILD_TA_2,<ninguno>
+ADS_CHILD_SA,SOSTEN AFECTIVO DEL NIÑO
+ADS_CHILD_A,AFECTO DEL NIÑO
+ADS_CHILD_P,PROXIMIDAD O CERCANIA DEL NIÑO
+ADS_MAIN_CAREGIVER_M,MIRADA DEL CUIDADOR PRINCIPAL
+ADS_MAIN_CAREGIVER_V,VOCALIZACION DEL CUIDADOR PRINCIPAL
+ADS_MAIN_CAREGIVER_TA,TACTO AFECTIVO DEL CUIDADOR PRINCIPAL
+ADS_MAIN_CAREGIVER_SA,SOSTEN AFECTIVO DEL CUIDADOR PRINCIPAL
+ADS_MAIN_CAREGIVER_A,AFECTO DEL CUIDADOR PRINCIPAL
+ADS_MAIN_CAREGIVER_P,PROXIMIDAD O CERCANIA DEL CUIDADOR PRINCIPAL
+ADS_MAIN_CAREGIVER_M_2,<ninguno>
+ADS_MAIN_CAREGIVER_V_2,<ninguno>
+ADS_MAIN_CAREGIVER_TA_2,<ninguno>
+ADS_MAIN_CAREGIVER_SA_2,<ninguno>
+ADS_MAIN_CAREGIVER_A_2,<ninguno>
+ADS_MAIN_CAREGIVER_P_2,<ninguno>
+Secure_bebé,numero de conductas seguras
+Insecure_bebé,numero de conductas seguras
+secure_bebe2,cantidad de conductas seguras del bebe
+insecure_bebe2,cantidad de conductas no seguras del bebe
+mirada_dic,<ninguno>
+vocalizacion_dic,<ninguno>
+tacto_dic,<ninguno>
+sosten_dic,<ninguno>
+afecto_dic,<ninguno>
+proximidad_dic,<ninguno>
+attachment2_ads,estilo de apego recodificado
+Attachment_ads,<ninguno>
+sensitivity,numero de conductas sensibles 3 y 4
+sensitivity2,cantidad de conductas sensibles de la madre recod
+Sala_cuna,<ninguno>
+Edad_bebé_2,Edad bebé a primera grabación
+asistio_sc,<ninguno>
+Fecha_vid1_EN,Fecha primer video emociones negativas
+Hora_vid1_EN,Hora primer video emociones negativas
+Fecha_vid2_EN,Fecha segundo video emociones negativas
+Hora_vid2_EN,Hora segundo video emociones negativas
+Día_asist_vid1_EN,N° días asistidos primer video Emociones Negativas
+Día_asist_vid2_EN,N° días asistidos segundo video Emociones Negativas
+Adultos_asist_vid1_EN,<ninguno>
+Niños_asist_vid1_EN,<ninguno>
+Adultos_asist_vid2_EN,<ninguno>
+Niños_asist_vid2_EN,<ninguno>
+Frec_1_EN_vid1,"Frecuencia codificación ""muy negativo"" video 1"
+Frec_2_EN_vid1,"Frecuencia codificación ""negativo"" video 1"
+Frec_3_EN_vid1,"Frecuencia codificación ""neutral"" video 1"
+Frec_4_EN_vid1,"Frecuencia codificación ""positivo"" video 1"
+Frec_5_EN_vid1,"Frecuencia codificación ""muy positivo"" video 1"
+Frec_6_EN_vid1,"Frecuencia codificación ""indeterminado"" video 1"
+Frec_1_EN_vid2,"Frecuencia codificación ""muy negativo"" video 2"
+Frec_2_EN_vid2,"Frecuencia codificación ""negativo"" video 2"
+Frec_3_EN_vid2,"Frecuencia codificación ""neutral"" video 2"
+Frec_4_EN_vid2,"Frecuencia codificación ""positivo"" video 2"
+Frec_5_EN_vid2,"Frecuencia codificación ""muy positivo"" video 2"
+Frec_6_EN_vid2,"Frecuencia codificación ""indeterminado"" video"
+Prop_1y2_vid1,Proporción de emoción negativa y muy negativa del total de segundos obs. Video 1
+Prop_1y2_vid2,Proporción de emoción negativa y muy negativa del total de segundos obs. Video 2
+Prop_3_vid1,Proporción neutros del total de segundos observados Video 1
+Prop_3_vid2,Proporción neutros del total de segundos observados Video 2
+Prop_4y5_vid1,Proporción de emoción positiva y muy positiva del total de segundos obs. Video 1
+Prop_4y5_vid2,Proporción de emoción positiva y muy positiva del total  de segundos obs. Video 2
+Muestra_pelo,<ninguno>
+Fecha_muestrapelo,<ninguno>
+Fecha_ITERS,date of the ITERS-R observation
+Fecha_nac_joven,date of birthday of the youngest child registered
+Edad_joven_ITERS,edad del niño más joven observado iters
+Fecha_nac_viejo,date of birthday of the oldest child registered
+Edad_viejo_ITERS,edad del niño más viejo observado iters
+Número_adultos,number of caregiver during the observation ITERS
+Num_niños_inscritos,number of children registered in the classroom ITERS
+Num_niños_max,maximum number of children admitted ITERS
+Num_niños_observados,number of children presents during the observation ITERS
+Edad_educadora,<ninguno>
+Años_servicio,<ninguno>
+Tiempo_salacuna,<ninguno>
+VAR00003,<ninguno>
+VAR00002,<ninguno>
+ITERS_1,<ninguno>
+ITERS_2,<ninguno>
+ITERS_3,<ninguno>
+ITERS_4,<ninguno>
+ITERS_5,<ninguno>
+ITERS_6,<ninguno>
+ITERS_7,<ninguno>
+ITERS_8,<ninguno>
+ITERS_9,<ninguno>
+ITERS_10,<ninguno>
+ITERS_11,<ninguno>
+ITERS_12,<ninguno>
+ITERS_13,<ninguno>
+ITERS_14,<ninguno>
+ITERS_15,<ninguno>
+ITERS_16,<ninguno>
+ITERS_17,<ninguno>
+ITERS_18,<ninguno>
+ITERS_19,<ninguno>
+ITERS_20,<ninguno>
+ITERS_21,<ninguno>
+ITERS_22,<ninguno>
+ITERS_23,<ninguno>
+ITERS_24,<ninguno>
+ITERS_25,<ninguno>
+ITERS_26,<ninguno>
+ITERS_27,<ninguno>
+ITERS_28,<ninguno>
+ITERS_29,<ninguno>
+ITERS_30,<ninguno>
+ITERS_31,<ninguno>
+ITERS_spaceandfurnishings,Space and Furnishings
+ITERS_personalcareandroutines,Personal Care Routines
+ITERS_listeningandtalking,Listening and Talking
+ITERS_escucharyhablarsindoce,without item 12
+ITERS_activities,without item 21&23
+ITERS_interaction,<ninguno>
+ITERS_programandstructure,<ninguno>
+ITERS_Total,<ninguno>
+Ratio_ITERS,<ninguno>
+Rango_ITERS,Rangos ITERS
+nombre_sala_cuna_puq,<ninguno>
+cis_sens,<ninguno>
+cis_harsh,<ninguno>
+cis_detach,<ninguno>
+cis_permis,<ninguno>
+cis_total_mean,<ninguno>
+Ratio_vid1,Ratio video 1 Emociones Negativas
+Ratio_vid2,Ratio video 2 Emociones Negativas
+Fecha_SSP,<ninguno>
+apego_SSP,Tipo de apego del bebé (ABC) SSP
+Apego_dic_ADS,estilo de apego recodificado
+Apego_dic_SSP,apego seguro vs inseguro SSP
+change_attachment,<ninguno>
+poschange_attachment,positive change attachment Time 1 to Time 2
+negchange_attachment,negative change attachment Time 1 to Time 2
+Edad_bebé_5,Edad bebé en situación extraña
+Edad_madre_ssp,mother´s age at SSP
+Sens_cuidadora,Sensibilidad educadora
+Bienestar_gral,Bienestar general del bebé
+sensitivity_ADS_rec,cantidad de conductas sensibles de la madre recod
+ASQ_12_1,¿Se ríe o se sonríe su bebé con usted y con otros miembros de la familia?
+ASQ_12_2,¿Le busca su bebé a usted cuando un desconocido se acerca?
+ASQ_12_3,<ninguno>
+ASQ_12_4,<ninguno>
+ASQ_12_5,<ninguno>
+ASQ_12_6,<ninguno>
+ASQ_12_7,<ninguno>
+ASQ_12_8,<ninguno>
+ASQ_12_9,<ninguno>
+ASQ_12_10,<ninguno>
+ASQ_12_11,<ninguno>
+ASQ_12_12,<ninguno>
+ASQ_12_13,<ninguno>
+ASQ_12_14,<ninguno>
+ASQ_12_15,<ninguno>
+ASQ_12_16,<ninguno>
+ASQ_12_17,<ninguno>
+ASQ_12_18,<ninguno>
+ASQ_12_19,<ninguno>
+ASQ_12_20,<ninguno>
+ASQ_12_21,<ninguno>
+ASQ_12_22,<ninguno>
+ASQ_12,<ninguno>
+Items_ASQ_sin_responder,<ninguno>
+Filtro_Sin_Respuesta,<ninguno>
+Total_ASQ,<ninguno>
+ASQ_6_1,<ninguno>
+ASQ_6_2,<ninguno>
+ASQ_6_3,<ninguno>
+ASQ_6_4,<ninguno>
+ASQ_6_5,<ninguno>
+ASQ_6_6,<ninguno>
+ASQ_6_7,<ninguno>
+ASQ_6_8,<ninguno>
+ASQ_6_9,<ninguno>
+ASQ_6_10,<ninguno>
+ASQ_6_11,<ninguno>
+ASQ_6_12,<ninguno>
+ASQ_6_13,<ninguno>
+ASQ_6_14,<ninguno>
+ASQ_6_15,<ninguno>
+ASQ_6_16,<ninguno>
+ASQ_6_17,<ninguno>
+ASQ_6_18,<ninguno>
+ASQ_6_19,<ninguno>
+Prop_negativas_total,<ninguno>
+Prop_neutras_total,<ninguno>
+Prop_positivas_total,<ninguno>
+filter_$,BienestarV1 >= 1 (FILTER)
+outliers,<ninguno>
+Sum_emocneg,<ninguno>
+Sum_emocpos,<ninguno>
+Diada,<ninguno>
+Muestra_saliva,<ninguno>
+Fecha_muestra1,<ninguno>
+Fecha_muestra2,<ninguno>
+Fecha_muestra3,<ninguno>
+Fecha_muestra4,<ninguno>
+Hora_muestra1,<ninguno>
+Hora_muestra2,<ninguno>
+Hora_muestra3,<ninguno>
+Hora_muestra4,<ninguno>
+Act_fisica_1,<ninguno>
+Act_fisica_2,<ninguno>
+Act_fisica_3,<ninguno>
+Act_fisica_4,<ninguno>
+Siesta_1,<ninguno>
+Siesta_2,<ninguno>
+Siesta_3,<ninguno>
+Siesta_4,<ninguno>
+Medicamentos_1,<ninguno>
+Medicamentos_2,<ninguno>
+Medicamentos_3,<ninguno>
+Medicamentos_4,<ninguno>
+Herida_bucal_1,<ninguno>
+Herida_bucal_2,<ninguno>
+Herida_bucal_3,<ninguno>
+Herida_bucal_4,<ninguno>
+Estado_animo_1,<ninguno>
+Estado_animo_2,<ninguno>
+Estado_animo_3,<ninguno>
+Estado_animo_4,<ninguno>
+Tipo_parto,<ninguno>
+Peso_nac_grs,<ninguno>
+Semanas_gestacion,<ninguno>
+Complicaciones_parto_niño,<ninguno>
+Complicaciones_parto_madre,<ninguno>
+Dias_hosp_nac_niño,<ninguno>
+Dias_hosp_nac_madre,<ninguno>
+Lactancia_mat,<ninguno>
+Tiempo_lactancia_meses,<ninguno>
+Cambio_rutina,<ninguno>
+Asiste_jardin,<ninguno>
+Mismo_jardin,<ninguno>
+Asistio_regular_jardin,<ninguno>
+Hospitalización,<ninguno>
+Diag_enfermedad,<ninguno>
+Enfermedad,<ninguno>
+Enf_recurrentes,<ninguno>
+edad_igA1,edad muestra igA 1dia
+edad_igA2,edad igA 2 dia
+igA1_1,concentracion igA dia 1 media mañana
+igA1_2,concentracion igA dia 1 media tarde
+igA2_1,concentracion igA dia 2 media mañana
+igA2_2,concentracion igA dia 2 media tarde
+VAR00001,<ninguno>
+wellbeing_recoded,<ninguno>
+ID_2020,<ninguno>
+ads_m_i_pv,ads pedro pablo y victoria
+ads_v_i_pv,ads pedro pablo y victoria
+ads_ta_i_pv,ads pedro pablo y victoria
+ads_sa_i_pv,ads pedro pablo y victoria
+ads_a_i_pv,ads pedro pablo y victoria
+ads_p_i_pv,ads pedro pablo y victoria
+ads_m_i_pv_2,<ninguno>
+ads_ta_i_pv_2,<ninguno>
+ads_a_i_pv_2,<ninguno>
+ads_m_i_pv_2_r,mirada bebe recodificada en 0 o 1
+ads_v_i_pv_r,recodificacion en 0 1
+ads_ta_i_pv_2_r,recodificaion tacto en 0 1
+ads_sa_i_pv_r,recodificaion sosten en 0 1
+ads_a_i_pv_2_r,recodificaion afecto en 0 1
+ads_p_i_pv_r,recodificaion sosten en 0 1
+countinsecurei_2020,<ninguno>
+countsecurei_2020,<ninguno>
+ADS2i_2020,<ninguno>
