@@ -1,0 +1,28 @@
+ID,Attachment,Gender,Average IgA Morning,Average IgA Afternoon,Average Difference IgA,Group,Variability_Profile,IgA_Level_Profile_Morning,IgA_Level_Profile_Afternoon,IgA-Change
+1,Insecure,Male,21.765240043657748,28.3680551807623,6.602815137104553,Insecure - Male,Low/Moderate,Low IgA,Low IgA,No Change
+4,Secure,Male,28.4730645641251,50.881961008259104,22.408896444134005,Secure - Male,Low/Moderate,Low IgA,Moderate IgA,Increase
+5,Secure,Female,100.21552042949205,49.79812936818563,-50.4173910613064,Secure - Female,Low/Moderate,High IgA,Moderate IgA,Decrease
+7,Insecure,Female,24.1734871598801,41.5779343360398,17.404447176159703,Insecure - Female,Low/Moderate,Low IgA,Moderate IgA,Increase
+12,Secure,Female,29.554869612465403,45.07818605304411,15.523316440578704,Secure - Female,Low/Moderate,Low IgA,Moderate IgA,Increase
+14,Secure,Female,51.715304464090494,43.15616209880995,-8.559142365280543,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change
+16,Secure,Female,57.47695546312456,73.89193560860996,16.4149801454854,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change
+17,Secure,Female,15.981670025731098,28.1784995347804,12.196829509049302,Secure - Female,Low/Moderate,Low IgA,Low IgA,No Change
+19,Secure,Female,42.6500667705687,40.23944155441325,-2.410625216155452,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change
+20,Secure,Male,51.76683731009464,68.1259418343291,16.359104524234453,Secure - Male,Low/Moderate,Moderate IgA,Moderate IgA,No Change
+23,Secure,Female,80.82488360176575,47.6328424349152,-33.192041166850544,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change
+24,Secure,Female,56.952675270893,34.39146116715855,-22.561214103734443,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change
+25,Insecure,Female,19.311717484357253,24.4781141319011,5.1663966475438485,Insecure - Female,Low/Moderate,Low IgA,Low IgA,No Change
+27,Secure,Female,43.63735983694384,45.24374699136823,1.6063871544243824,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change
+29,Secure,Female,34.82016585742425,23.72143431896355,-11.0987315384607,Secure - Female,Low/Moderate,Moderate IgA,Low IgA,Decrease
+30,Secure,Male,18.8953091772799,27.154614356632,8.2593051793521,Secure - Male,Low/Moderate,Low IgA,Low IgA,No Change
+32,Secure,Male,32.5653261578278,44.61106917490955,12.045743017081756,Secure - Male,Low/Moderate,Moderate IgA,Moderate IgA,No Change
+35,Insecure,Male,40.4067676754269,26.912941977025756,-13.493825698401146,Insecure - Male,Low/Moderate,Moderate IgA,Low IgA,Decrease
+40,Secure,Female,23.7683369248982,20.813814641892,-2.954522283006199,Secure - Female,Low/Moderate,Low IgA,Low IgA,No Change
+45,Secure,Male,19.0562150056841,28.5128811511973,9.4566661455132,Secure - Male,Low/Moderate,Low IgA,Low IgA,No Change
+48,Secure,Female,27.2408931033793,24.3026620162211,-2.9382310871582007,Secure - Female,Low/Moderate,Low IgA,Low IgA,No Change
+51,Insecure,Male,19.58877860185885,43.22847275810445,23.639694156245604,Insecure - Male,Low/Moderate,Low IgA,Moderate IgA,Increase
+52,Secure,Male,29.3017574624896,35.40484172387948,6.103084261389878,Secure - Male,Low/Moderate,Low IgA,Moderate IgA,Increase
+54,Insecure,Male,30.59801485279305,97.7231155879985,67.12510073520545,Insecure - Male,High variability,Moderate IgA,Moderate IgA,No Change
+62,Insecure,Female,22.00971999575845,24.2418036003548,2.232083604596351,Insecure - Female,Low/Moderate,Low IgA,Low IgA,No Change
+63,Insecure,Male,26.219625628506,20.0664217452762,-6.1532038832298,Insecure - Male,Low/Moderate,Low IgA,Low IgA,No Change
+65,Insecure,Female,30.282336826192747,25.63691246170905,-4.645424364483695,Insecure - Female,Low/Moderate,Moderate IgA,Low IgA,Decrease

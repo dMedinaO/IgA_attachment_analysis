@@ -1,0 +1,9 @@
+ID,Attachment,Gender,Average IgA Morning,Average IgA Afternoon,Average Difference IgA,Group,Variability_Profile,IgA_Level_Profile_Morning,IgA_Level_Profile_Afternoon,IgA-Change,Cortisol (pg/mL),Cortisol_Level
+1,Insecure,Male,21.765240043657748,28.3680551807623,6.602815137104553,Insecure - Male,Low/Moderate,Low IgA,Low IgA,No Change,5.62,Low
+5,Secure,Female,100.21552042949205,49.79812936818563,-50.4173910613064,Secure - Female,Low/Moderate,High IgA,Moderate IgA,Decrease,2.28,Low
+7,Insecure,Female,24.1734871598801,41.5779343360398,17.404447176159703,Insecure - Female,Low/Moderate,Low IgA,Moderate IgA,Increase,1.83,Low
+16,Secure,Female,57.47695546312456,73.89193560860996,16.4149801454854,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change,3.59,Low
+23,Secure,Female,80.82488360176575,47.6328424349152,-33.192041166850544,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change,4.76,Low
+27,Secure,Female,43.63735983694384,45.24374699136823,1.6063871544243824,Secure - Female,Low/Moderate,Moderate IgA,Moderate IgA,No Change,2.26,Low
+32,Secure,Male,32.5653261578278,44.61106917490955,12.045743017081756,Secure - Male,Low/Moderate,Moderate IgA,Moderate IgA,No Change,22.75,High
+63,Insecure,Male,26.219625628506,20.0664217452762,-6.1532038832298,Insecure - Male,Low/Moderate,Low IgA,Low IgA,No Change,7.08,Low
