@@ -1,0 +1,16 @@
+[project]
+name = "iga-attachment-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "notebook",
+    "pandas",
+    "seaborn",
+    "matplotlib",
+    "scipy",
+    "scikit_posthocs",
+    "typing",
+    "scikit-learn" 
+]
