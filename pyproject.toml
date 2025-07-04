@@ -5,12 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "notebook",
-    "pandas",
-    "seaborn",
-    "matplotlib",
-    "scipy",
-    "scikit_posthocs",
-    "typing",
-    "scikit-learn" 
+    "notebook==7.4.4",
+    "pandas==2.3.0",
+    "seaborn==0.13.2",
+    "matplotlib==3.10.3",
+    "scipy==1.16.0",
+    "scikit_posthocs==0.11.4",
+    "scikit-learn==1.7.0",
+    "typing==3.10.0.0"
 ]
