@@ -1,0 +1,9 @@
+ID,Gender,Attachment,Attachment_predicted
+11,Male,Secure,Insecure
+15,Female,Insecure,Insecure
+18,Female,Secure,Secure
+36,Male,Insecure,Insecure
+55,Female,Insecure,Insecure
+57,Male,Secure,Secure
+60,Male,Secure,Insecure
+66,Female,Secure,Secure
