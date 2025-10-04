@@ -1,4 +1,0 @@
-mean,sd,hdi_2.5%,hdi_97.5%,mcse_mean,mcse_sd,ess_bulk,ess_tail,r_hat,var_names
--1.052,1.162,-3.45,1.175,0.049,0.03,562.0,766.0,1.01,beta_siga_morning
--0.009,1.206,-2.262,2.555,0.051,0.03,550.0,775.0,1.01,beta_siga_afternoon
-1.063,1.275,-1.347,3.713,0.053,0.032,569.0,741.0,1.01,beta_siga_diff
