@@ -204,68 +204,107 @@ class AuxiliarFunctions:
         output_file: str | None = None,
     ) -> None:
         """
-        Plot the fitted ELISA standard curve and sample data.
+        Plot the fitted ELISA standard curve and sample data using
+        a clean, publication-style aesthetic.
 
-        Parameters
-        ----------
-        standards : pandas.DataFrame
-            Data frame containing at least columns "Concentration" and "OD"
-            for the standard points.
-        samples : pandas.DataFrame
-            Data frame containing at least column "OD" and optionally
-            "EstimatedConcentration" for unknown samples.
-        params : numpy.ndarray
-            Fitted parameters [a, b, c, d].
-        cov : numpy.ndarray
-            Parameter covariance matrix from `curve_fit`.
-        x_min : float, optional
-            Minimum x-axis value (concentration) for the plot.
-        x_max : float, optional
-            Maximum x-axis value (concentration) for the plot.
-        output_file : str or None, optional
-            If provided, save the figure to this path.
+        The plot style is inspired by modern scientific figures:
+        - Minimal spines (top and right removed).
+        - Slightly larger fonts.
+        - Orange and teal color palette for the groups.
+        - Legend outside or at the edge of the axes.
         """
+        # ------------------------------------------------------------------
+        # Style configuration
+        # ------------------------------------------------------------------
+        # Using a similar pallete color
+        color_standard = "#F79256"  
+        color_sample = "#00B2CA"    
+
+        plt.rcParams.update({
+            "font.size": 10,
+            "axes.titlesize": 12,
+            "axes.labelsize": 11,
+            "xtick.labelsize": 10,
+            "ytick.labelsize": 10,
+            "axes.spines.top": False,
+            "axes.spines.right": False,
+            "axes.linewidth": 1.2,
+            "xtick.direction": "out",
+            "ytick.direction": "out",
+            "xtick.major.size": 4,
+            "ytick.major.size": 4,
+            "figure.dpi": 120,
+        })
+
+        # Generate smooth x-grid for the fitted curve
         x_plot = np.linspace(x_min, x_max, 200)
         y_fit, y_low, y_up = cls.prediction_band(x_plot, params, cov, alpha=0.05)
 
-        fig, ax = plt.subplots(figsize=(6, 4))
+        fig, ax = plt.subplots(figsize=(5.5, 3.8))
 
-        # Standards: black filled circles
+        # ------------------------------------------------------------------
+        # Scatter points
+        # ------------------------------------------------------------------
+        # Standards: orange filled circles
         ax.scatter(
             standards["Concentration"],
             standards["OD"],
-            c="black",
+            s=45,
+            c=color_standard,
+            edgecolors="black",
+            linewidths=0.5,
             label="Standard",
             zorder=3,
         )
 
-        # Samples: green open circles positioned at estimated concentration
+        # Samples: teal open circles at estimated concentrations
         if "EstimatedConcentration" in samples.columns:
             ax.scatter(
                 samples["EstimatedConcentration"],
                 samples["OD"],
+                s=45,
                 facecolors="none",
-                edgecolors="tab:green",
+                edgecolors=color_sample,
+                linewidths=1.2,
                 label="Measured",
                 zorder=3,
             )
 
+        # ------------------------------------------------------------------
         # Fitted curve and confidence band
-        ax.plot(x_plot, y_fit, "k", linewidth=1.5)
-        ax.plot(x_plot, y_low, "k--", linewidth=1.0)
-        ax.plot(x_plot, y_up, "k--", linewidth=1.0)
+        # ------------------------------------------------------------------
+        ax.plot(x_plot, y_fit, color="black", linewidth=1.5)
+        ax.plot(x_plot, y_low, color="black", linestyle="--", linewidth=1.0)
+        ax.plot(x_plot, y_up, color="black", linestyle="--", linewidth=1.0)
 
-        # Styling similar to the Prism figure
+        # ------------------------------------------------------------------
+        # Axes, labels and limits
+        # ------------------------------------------------------------------
         ax.set_xlabel("[ng/µL]")
         ax.set_ylabel("OD")
         ax.set_xlim(x_min, x_max)
         ax.set_ylim(0.0, 1.1)
-        ax.legend()
-        ax.set_title("ELISA 4PL fit (450 nm)")
+
+        # Make left and bottom spines a bit thicker
+        for spine in ["bottom", "left"]:
+            ax.spines[spine].set_linewidth(1.4)
+
+        # Light grid on y-axis (optional, like many modern figures)
+        ax.grid(axis="y", alpha=0.2)
+
+        # Legend similar to panel B of your figure
+        leg = ax.legend(
+            frameon=False,
+            loc="upper right",
+            borderpad=0.3,
+            handlelength=1.5,
+        )
+
+        ax.set_title("ELISA (450 nm)")
 
         fig.tight_layout()
 
         if output_file is not None:
-            fig.savefig(output_file, dpi=300)
+            fig.savefig(output_file, dpi=300, bbox_inches="tight")
 
         plt.show()
